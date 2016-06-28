@@ -1,4 +1,4 @@
-def sorteLinearSearch( theValues, item):
+def sortedLinearSearch( theValues, item):
     n = len( theValues )
     for i in range( n ):
         if theValues[i] == item :
