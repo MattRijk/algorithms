@@ -21,7 +21,7 @@ def counter(a, b):
             x += 1
         elif a[i] < b[i]:
             y += 1
-    print('%d %d'%(x, y))
+    return '{0} {1}'.format(x, y)
 
 
 
