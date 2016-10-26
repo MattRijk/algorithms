@@ -1,7 +1,15 @@
+class Node( object ):
+ 
+  def __init__( self, data, next = None ):
+    self.data = data
+    self.next = next
+    
+
 class SinglyLinkedList( object ):
  
     def __init__( self ):
-        self.head , self.tail = None, None
+        self.head = None
+		self.tail = None 
     
     def addToHead( self, el ):
         self.head = Node( el, self.head )
@@ -44,12 +52,7 @@ class SinglyLinkedList( object ):
             
         
 
-class Node( object ):
- 
-  def __init__( self, data, next = None ):
-    self.data = data
-    self.next = next
-    
+
 n1 = Node('One')
 n2 = Node('Two')
 n3 = Node('Three')
